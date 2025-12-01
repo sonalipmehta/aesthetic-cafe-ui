@@ -1,0 +1,3 @@
+.hero{background:linear-gradient(180deg,#fff,#fff);padding:36px;border-radius:12px;margin-bottom:18px}
+.hero-inner h1{margin:0 0 8px;font-size:1.8rem}
+.btn{display:inline-block;margin-top:12px;padding:10px 14px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none}

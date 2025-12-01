@@ -1,0 +1,12 @@
+<article class="card">
+  <div class="img-wrap"><img [src]="cafe.imageUrl" [alt]="cafe.name" /></div>
+  <div class="body">
+  <h3>{{ cafe.name }}</h3>
+  <p class="loc">{{ cafe.location }}</p>
+  <p class="desc">{{ cafe.description }}</p>
+  <div class="meta">
+  <div class="rating">★ {{ cafe.rating.toFixed(1) }} <span class="muted">({{ cafe.reviewsCount }})</span></div>
+  <div class="tags"><span *ngFor="let t of cafe.tags" class="tag">{{t}}</span></div>
+  </div>
+  </div>
+  </article>

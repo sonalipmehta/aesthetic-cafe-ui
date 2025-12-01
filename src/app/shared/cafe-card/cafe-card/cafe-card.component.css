@@ -1,0 +1,7 @@
+.card{background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.06);display:flex;flex-direction:column}
+.img-wrap img{width:100%;height:180px;object-fit:cover}
+.body{padding:12px}
+.loc{color:var(--muted);margin:4px 0}
+.desc{margin:6px 0;color:#444}
+.meta{display:flex;justify-content:space-between;align-items:center}
+.tag{background:#f3f4f7;padding:6px;border-radius:999px;margin-left:6px}
