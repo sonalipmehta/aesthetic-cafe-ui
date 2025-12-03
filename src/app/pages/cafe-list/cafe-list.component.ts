@@ -22,7 +22,7 @@ export class CafeListComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.cafeService.getCafes().subscribe(list => { this.cafes = list; this.filtered = list; });
+    this.cafeService.getAllCafes().subscribe(list => { this.cafes = list; this.filtered = list; });
   }
 
   onSearch(){ const q = this.query.trim().toLowerCase(); this.filtered = q ? this.cafes.filter(c => c.name.toLowerCase().includes(q) || c.location.toLowerCase().includes(q) || (c.tags||[]).some(t=>t.includes(q))) : this.cafes; }
